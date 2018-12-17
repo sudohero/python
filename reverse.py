@@ -2,7 +2,7 @@
 # that gets returned from user-provided input.
 # It was only written to support the ls, pwd and who commands.
 # Valid 'reverse' commands will print the results from the above
-# commands to screen, but in reverse so I can practice my python :)
+# commands to screen, but in reverse so I can practice my python
 
 import os
 

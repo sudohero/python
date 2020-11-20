@@ -28,7 +28,7 @@ def locate(obj):
 
     print(f'\n-=[ Location of {ip} ]=-')
     for key, value in ip_data.items():
-        print(key, '=>', value)
+        print(key, '=>\t\t', value)
 
 # define a function to handle the file processing if the '-f' option is used
 def process_file(file):

@@ -26,23 +26,9 @@ def locate(obj):
     response = requests.get(f"http://ip-api.com/json/{ip}" + "?fields=org,country,regionName,city,lat,lon,isp,as")      # store our request in response
     ip_data = response.json()       # store the data in json format in ip_data
 
-    # initialize a list to store the data that we want to print out to the user: lat,lon,org,country,regionName,city,isp,as
-    info = [
-        ip_data['lat'],
-        ip_data['lon'],
-        ip_data['org'],
-        ip_data['country'],
-        ip_data['regionName'],
-        ip_data['city'],
-        ip_data['isp'],
-        ip_data['as']
-    ]
-
-    # print out the data
-    print(f"IP Location of {ip}")
-    for i in info:
-        print(i)
-    print('\n')     # new line to help distinguish each item
+    print(f'\n-=[ Location of {ip} ]=-')
+    for key, value in ip_data.items():
+        print(key, '=>', value)
 
 # define a function to handle the file processing if the '-f' option is used
 def process_file(file):

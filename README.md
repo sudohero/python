@@ -34,9 +34,9 @@ z.z.z.z
 
 Single IP address query
 
-![single-ip](https://user-images.githubusercontent.com/45858613/112901016-36a08500-90b2-11eb-83c4-e7babbab772a.PNG)
+![single-ip-short](https://user-images.githubusercontent.com/45858613/112902028-892e7100-90b3-11eb-9604-c4cdd011d511.PNG)
 
 
-Multiple IP addresses from a list
+Multiple IP addresses from a list 
 
-![ip-list](https://user-images.githubusercontent.com/45858613/112901108-559f1700-90b2-11eb-8ed0-33331089bd96.PNG)
+![ip-list-short](https://user-images.githubusercontent.com/45858613/112901787-32289c00-90b3-11eb-8f28-45016a282a9d.PNG)

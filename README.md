@@ -30,3 +30,13 @@ y.y.y.y
 z.z.z.z
 ```
 
+### Screenshots
+
+Single IP address query
+
+![single-ip](https://user-images.githubusercontent.com/45858613/112901016-36a08500-90b2-11eb-83c4-e7babbab772a.PNG)
+
+
+Multiple IP addresses from a list
+
+![ip-list](https://user-images.githubusercontent.com/45858613/112901108-559f1700-90b2-11eb-8ed0-33331089bd96.PNG)
